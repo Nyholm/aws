@@ -14,6 +14,18 @@
                 "DescribeStacks"
             ]
         },
+        "Cognito": {
+            "source": "https:\/\/raw.githubusercontent.com\/aws\/aws-sdk-php\/${LATEST}\/src\/data\/cognito-idp\/2016-04-18\/api-2.json",
+            "documentation": "https:\/\/raw.githubusercontent.com\/aws\/aws-sdk-php\/${LATEST}\/src\/data\/cognito-idp\/2016-04-18\/docs-2.json",
+            "pagination": "https:\/\/raw.githubusercontent.com\/aws\/aws-sdk-php\/${LATEST}\/src\/data\/cognito-idp\/2016-04-18\/paginators-1.json",
+            "example": "https:\/\/raw.githubusercontent.com\/aws\/aws-sdk-php\/${LATEST}\/src\/data\/cognito-idp\/2016-04-18\/examples-1.json",
+            "methods": [
+                "AdminGetUser",
+                "AdminUpdateUserAttributes",
+                "GetUser",
+                "UpdateUserAttributes"
+            ]
+        },
         "DynamoDb": {
             "source": "https:\/\/raw.githubusercontent.com\/aws\/aws-sdk-php\/${LATEST}\/src\/data\/dynamodb\/2012-08-10\/api-2.json",
             "documentation": "https:\/\/raw.githubusercontent.com\/aws\/aws-sdk-php\/${LATEST}\/src\/data\/dynamodb\/2012-08-10\/docs-2.json",
